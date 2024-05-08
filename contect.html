@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website Design</title>
+    <link rel="stylesheet" href="style.css"></Link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<style>
+   
+</style>
+</head>
+<body>
+    <section class="sub-header">
+<nav>
+    <a href="uni index.html"><img src="https://graphicsfamily.com/wp-content/uploads/edd/2021/07/Thumbnail-scaled.jpg" width="150px" height="100px" padding-top="50px"></a>
+    <div class="nav-links" id="navLinks">
+        <i id="fa1" class="material-icons" style="font-size:26px" onclick="hidemenu()">clear</i>
+        <ul>
+            <li><a href="uni index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contect.html">CONTECT</a></li>
+        </ul>
+    </div>
+    <i  id="fa2" class="material-icons" style="font-size:26px" onclick="showmenu()">menu</i>
+</nav>
+<h1>Contect us</h1>
+    </section>
+<!---contect us-->
+   <section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4011092.8425503913!2d75.87066907675904!3d10.95711388399351!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00677b6aaaaaab%3A0xc17a3e5d22cfd7c9!2sAlagappa%20University!5e0!3m2!1sen!2sin!4v1703069050930!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+
+
+<section class="contect-us">
+    <div class="row">
+        <div class="contect-col">
+            <div>
+                <i class="bi bi-house-fill"></i>
+                <span>
+                    <h5>XYZ Road,ABCbuilding</h5>
+                    <p>ANNANAGAR,Madurai,IN</p>
+                </span>
+
+            </div>
+            <div>
+                <i class="bi bi-phone-fill"></i>
+<span>
+    <h5>+91 8825856510</h5>
+    <p>Monday to Saturday,10Am to 6Pm</p>
+</span>
+            </div>
+            <div>
+                <i class="bi bi-envelope"></i>
+<span>
+    <h5>nasrinn2808@gmail.com</h5>
+    <p>Email us your query</p>
+</span>
+            </div>
+        </div>
+        <div class="contect-col">
+<form action="form-handle.php" method="post">
+    <input type="text" name="name" placeholder="Enter your Name" recuired>
+    <input type="email" name="email"placeholder="Enter your Email" recuired>
+    <input type="text" name="subject" placeholder="Enter yoursubject" recuired>
+<textarea rows="8" name="message"placeholder="Messege" recuired></textarea>
+<button class="hero-btn red-btn" type="submit">Send Message</button>
+
+</form>
+</div>
+    </div>
+</section>
+
+
+<!--fooder-->
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat modi voluptas labore sunt facilis, blanditiis fugit! <br>Minus dolores fuga earum aliquam maiores.</p>
+
+<div class="icons">
+    <i class="bi bi-facebook"></i>
+    <i class="bi bi-twitter"></i>
+    <i class="bi bi-instagram"></i>
+    <i class="bi bi-linkedin"></i>
+</div>
+<p>Made with <i class="bi bi-heart"></i> by easy Tutorials</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Javascript for toggle menu -->
+    <script>
+        var navLinks=document.getElementById("navLinks")
+        function showmenu(){
+            navLinks.style.right="0"
+        }
+        function hidemenu(){
+            navLinks.style.right="-260px"
+        }
+    </script>
+</body>
+</html>
